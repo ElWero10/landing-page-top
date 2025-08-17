@@ -156,6 +156,7 @@ body {
     gap: 15%;
     align-items: center;
     width: 80%;
+    justify-content: space-between;
 }
 
 .banner-text {
