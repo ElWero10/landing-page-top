@@ -143,6 +143,44 @@ body {
 .call-to-action {
     display: flex;
     flex-grow: .7;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sign-up-banner {
+    background-color: #3882F6;
+    display: flex;
+    padding: 5% 10%;
+    border-radius: 10px;
+    gap: 15%;
+    align-items: center;
+    width: 80%;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.bold-call {
+    font-weight: bold;
+    font-size: 16px;
+    color: #F9FAF8;
+}
+
+.sign-up-banner button {
+    min-width: 100px;
+    max-height: 35px;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 500;
+    padding: 2px
 }
 
 footer {
